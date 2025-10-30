@@ -1,4 +1,4 @@
-MONGODB_HOST: mongodb-{{ env }}.saidaws86s.fun # mongodb-dev.daws86s.fun
+MONGODB_HOST: mongodb-{{ env }}.saidaws86s.fun # mongodb-dev.saidaws86s.fun
 REDIS_HOST: redis-{{ env }}.saidaws86s.fun
 CATALOGUE_HOST: catalogue-{{ env }}.saidaws86s.fun
 CART_HOST: cart-{{ env }}.saidaws86s.fun
