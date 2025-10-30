@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.saidaws86s.fun
+MONGODB_HOST: mongodb-{{ env }}.saidaws86s.fun
