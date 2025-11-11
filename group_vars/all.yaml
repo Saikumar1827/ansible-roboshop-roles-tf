@@ -1,9 +1,9 @@
 MONGODB_HOST: mongodb-{{ env }}.saidaws86s.fun # mongodb-dev.saidaws86s.fun
 REDIS_HOST: redis-{{ env }}.saidaws86s.fun
-CATALOGUE_HOST: catalogue-{{ env }}.saidaws86s.fun
-CART_HOST: cart-{{ env }}.saidaws86s.fun
-USER_HOST: user-{{ env }}.saidaws86s.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.saidaws86s.fun
+CART_HOST: cart.backend-alb-{{ env }}.saidaws86s.fun
+USER_HOST: user.backend-alb-{{ env }}.saidaws86s.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.saidaws86s.fun
 MYSQL_HOST: mysql-{{ env }}.saidaws86s.fun
-SHIPPING_HOST: shipping-{{ env }}.saidaws86s.fun
-PAYMENT_HOST: payment-{{ env }}.saidaws86s.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.saidaws86s.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.saidaws86s.fun
